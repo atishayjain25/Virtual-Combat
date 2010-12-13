@@ -1,0 +1,6 @@
+#Robocode Compiler Properties
+#Wed Dec 08 01:02:10 IST 2010
+compiler.options=-deprecation -g
+robocode.version=\ 2.0.0 Alpha
+compiler.classpath=-classpath /usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar\:libs/robocode.jar\:/home/shivasheesh/Desktop/atishay-workspace/workspace.2.0/robocode.samples/target/classes
+compiler.binary=

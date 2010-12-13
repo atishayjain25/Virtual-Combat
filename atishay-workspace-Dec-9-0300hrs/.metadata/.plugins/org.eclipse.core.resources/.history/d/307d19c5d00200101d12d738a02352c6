@@ -1,0 +1,6 @@
+#Robocode Compiler Properties
+#Mon Dec 06 18:48:40 IST 2010
+compiler.options=-deprecation -g
+robocode.version=\ 2.0.0 Alpha
+compiler.classpath=-classpath /usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/rt.jar\:libs/robocode.jar\:libs/robocode.extensions.jar\:libs/robocode.extensionsApi.jar\:/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/target/classes
+compiler.binary=javac

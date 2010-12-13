@@ -1,0 +1,70 @@
+package sample;
+import java.awt.Color;
+
+import robocode.*;
+import robocode.robotinterfaces.IObjectEvents;
+import robocode.robotinterfaces.IObjectRobot;
+public class BestBot extends Robot implements IObjectEvents, IObjectRobot
+{
+    public void run()
+    {
+        while (true)
+        {
+        	setBodyColor(Color.RED);
+        	setGunColor(Color.ORANGE);
+        	setRadarColor(Color.DARK_GRAY);
+        	setScanColor(Color.GRAY);
+            ahead(1000);
+            turnGunRight(360);
+            back(1000);
+            turnGunRight(360);
+        }
+    }
+ 
+    public void smartFire(double dce)
+    {
+    	if(dce<150)
+    		fire(3);
+    	else if(dce<300)
+    		fire(2);
+    	else
+    		fire(1);
+    }
+    public void onScannedRobot(ScannedRobotEvent e) {
+    	double angle,dce;
+    	dce=e.getDistance();
+    	angle=e.getBearing();
+    	smartFire(dce);
+    	//ahead(dce*Math.cos(angle)/10);
+    	//turnRight(90);
+    	//ahead(dce*Math.sin(angle)/10);
+     }
+    public void onHitObstacle(HitObstacleEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    }
+    public void onHitWall(HitWallEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    }
+    public void onHitObject(HitObjectEvent e)
+    {
+    	turnRight(90);
+    	ahead(60);
+    }
+    public void onScannedObject(ScannedObjectEvent e) {
+    	double angle,dce;
+		if (e.getObjectType().equals("flag")) {
+			angle=e.getBearing();
+			dce=e.getDistance();
+			ahead(dce*Math.cos(angle));
+			turnRight(90);
+			ahead(dce*Math.sin(angle));
+		}
+	}
+    public IObjectEvents getObjectEventListener() {
+		return this;
+	}
+}

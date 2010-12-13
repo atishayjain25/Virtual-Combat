@@ -1,0 +1,206 @@
+package net.sf.robocode.extensionsApi;
+
+package CTFApi;
+
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.List;
+
+import robocode.AdvancedRobot;
+import robocode.HitObjectEvent;
+import robocode.HitObstacleEvent;
+import robocode.robotinterfaces.IObjectEvents;
+import robocode.robotinterfaces.IObjectRobot;
+
+
+
+public class CaptureTheFlagApi extends AdvancedRobot implements ICaptureTheFlagApi,IObjectEvents, IObjectRobot{
+
+	private String ownName;
+	private List<List<String>> teams;
+	private int ownTeam;
+	private Rectangle2D ownBase;
+	private Rectangle2D enemyBase;
+	private Point2D ownFlag;
+	private Point2D enemyFlag;
+	private boolean firstUpdate = true;
+	
+	public CaptureTheFlagApi()	{}
+	
+	public boolean isTeammate(String otherName) {
+		if (teams != null)
+		{
+			return teams.get(ownTeam).contains(otherName);
+		}
+		return false;
+	}
+	
+	public List<String> getTeammates()
+	{
+		if (teams != null)
+		{
+			return teams.get(ownTeam);
+		}
+		return null;
+	}
+	
+	public List<List<String>> getTeams()
+	{
+		if (teams != null)
+		{
+			return teams;
+		}
+		return null;
+	}
+	
+	public Rectangle2D getOwnBase() {
+		return ownBase;
+	}
+	
+	public Point2D getOwnFlag()
+	{
+		return ownFlag;
+	}
+	
+	public Rectangle2D getEnemyBase() {
+		return enemyBase;
+	}
+	
+	public Point2D getEnemyFlag()
+	{
+		return enemyFlag;
+	}
+	
+	public boolean isEnemyFlagAtBase()
+	{		
+		if (enemyBase == null)
+		{
+			return false;
+		}
+		return enemyBase.contains(enemyFlag);
+	}
+
+	public boolean isOwnFlagAtBase() 
+	{
+		if (ownBase == null)
+		{
+			return false;
+		}
+		return ownBase.contains(ownFlag);
+	}
+/*
+	public List<String> getBattlefieldState()
+	{
+		return ctf.getBattlefieldState();
+	}
+	*/
+	
+	public void registerMe()
+	{
+		execute();
+		this.ownName = this.getName();
+		List<String> state = getBattlefieldState();
+		UpdateBattlefieldState(state);
+		return;
+		
+	}
+	
+	public void UpdateBattlefieldState(List<String> state) 
+	{		
+		int stateIndex = 0;
+		
+		int firstTeamSize = Integer.valueOf(state.get(stateIndex));	
+		stateIndex++;
+		List<String> firstTeam = new ArrayList<String>();
+		
+		for (int firstTeamIndex = 0; firstTeamIndex < firstTeamSize; firstTeamIndex++)
+		{
+			if (firstUpdate)
+			{
+				firstTeam.add(state.get(stateIndex));
+			}
+			stateIndex++;
+		}
+
+		int secondTeamSize = Integer.valueOf(state.get(stateIndex));	
+		stateIndex++;
+		List<String> secondTeam = new ArrayList<String>();
+		
+		for (int secondTeamIndex = 0; secondTeamIndex < secondTeamSize; secondTeamIndex++)
+		{
+			if (firstUpdate)
+			{
+				secondTeam.add(state.get(stateIndex));
+			}
+			stateIndex++;
+		}
+		
+		if (firstUpdate)
+		{
+			teams = new ArrayList<List<String>>();
+			teams.add(firstTeam);
+			teams.add(secondTeam);
+			
+			ownTeam = firstTeam.contains(ownName) ? 0 : 1;
+		}
+		
+		double firstFlagX = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double firstFlagY = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondFlagX = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondFlagY = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double firstBaseX = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double firstBaseY = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double firstBaseWidth = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double firstBaseHeight = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondBaseX = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondBaseY = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondBaseWidth = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		double secondBaseHeight = Double.valueOf(state.get(stateIndex));
+		stateIndex++;
+		
+		Point2D firstFlag = new Point2D.Double(firstFlagX, firstFlagY);
+		Point2D secondFlag = new Point2D.Double(secondFlagX, secondFlagY);
+		Rectangle2D firstBase = new Rectangle2D.Double(firstBaseX, firstBaseY, firstBaseHeight, firstBaseWidth);
+		Rectangle2D secondBase = new Rectangle2D.Double(secondBaseX, secondBaseY, secondBaseHeight, secondBaseWidth);
+		
+		ownFlag = ownTeam == 0 ? firstFlag : secondFlag;
+		enemyFlag = ownTeam == 0 ? secondFlag : firstFlag;
+		ownBase = ownTeam == 0 ? firstBase : secondBase;
+		enemyBase = ownTeam == 0 ? secondBase : firstBase;
+		
+		if (firstUpdate)
+		{
+			firstUpdate = false;
+		}
+	}
+	
+	/**
+	 * Do not call this method!
+	 * <p/>
+	 * {@inheritDoc}
+	 */
+	public IObjectEvents getObjectEventListener() {
+		return this;
+	}
+	/** {@inheritDoc}
+	 * 
+	 */
+	public void onHitObstacle(HitObstacleEvent e) {	}
+	
+	 /** {@inheritDoc}
+	  * 
+	  */
+	public void onHitObject(HitObjectEvent event) {	}
+}

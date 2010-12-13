@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="0.406" failures="0" name="net.sf.robocode.test.robots.TestSocketAttack">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/i386" name="sun.boot.library.path"/>
+    <property value="1.5.0_19-b02" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=":" name="path.separator"/>
+    <property value="Java HotSpot(TM) Server VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="IN" name="user.country"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests" name="user.dir"/>
+    <property value="target//classes" name="ROBOTPATH"/>
+    <property value="1.5.0_19-b02" name="java.runtime.version"/>
+    <property value="target//test-classes" name="WORKINGDIRECTORY"/>
+    <property value="sun.awt.X11GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests" name="basedir"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="i386" name="os.arch"/>
+    <property value="/tmp/surefirebooter6590869639705564651.jar" name="surefire.real.class.path"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="Linux" name="os.name"/>
+    <property value="true" name="EXPERIMENTAL"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/i386/server:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/i386:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/../lib/i386" name="java.library.path"/>
+    <property value="/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/test-classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.api/target/robocode.jar:/home/shivasheesh/.m2/repository/junit/junit/4.5/junit-4.5.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.core/target/robocode.core-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/org/picocontainer/picocontainer/2.6/picocontainer-2.6.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.samples/target/robocode.samples-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.host/target/robocode.host-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.battle/target/robocode.battle-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.repository/target/robocode.repository-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/net/sf/robocode/codesize/1.1/codesize-1.1.jar:" name="surefire.test.class.path"/>
+    <property value="/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/test-classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.api/target/robocode.jar:/home/shivasheesh/.m2/repository/junit/junit/4.5/junit-4.5.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.core/target/robocode.core-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/org/picocontainer/picocontainer/2.6/picocontainer-2.6.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.samples/target/robocode.samples-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.host/target/robocode.host-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.battle/target/robocode.battle-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.repository/target/robocode.repository-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/net/sf/robocode/codesize/1.1/codesize-1.1.jar:" name="robocode.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Server Compiler" name="sun.management.compiler"/>
+    <property value="2.6.32-26-generic" name="os.version"/>
+    <property value="/home/shivasheesh" name="user.home"/>
+    <property value="Asia/Kolkata" name="user.timezone"/>
+    <property value="sun.print.PSPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="UTF-8" name="file.encoding"/>
+    <property value="shivasheesh" name="user.name"/>
+    <property value="/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/test-classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.tests/target/classes:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.api/target/robocode.jar:/home/shivasheesh/.m2/repository/junit/junit/4.5/junit-4.5.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.core/target/robocode.core-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/org/picocontainer/picocontainer/2.6/picocontainer-2.6.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.samples/target/robocode.samples-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.host/target/robocode.host-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.battle/target/robocode.battle-1.7.2.2-Beta.jar:/home/shivasheesh/Desktop/atishay-workspace-bak/robocode.repository/target/robocode.repository-1.7.2.2-Beta.jar:/home/shivasheesh/.m2/repository/net/sf/robocode/codesize/1.1/codesize-1.1.jar:" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="en" name="user.language"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0_19" name="java.version"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/ext" name="java.ext.dirs"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/rt.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/i18n.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/jsse.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/jce.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/lib/charsets.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.19/jre/classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="/home/shivasheesh/.m2/repository" name="localRepository"/>
+    <property value="/" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="true" name="TESTING"/>
+    <property value="gnome" name="sun.desktop"/>
+    <property value="" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="net.sf.robocode.test.robots.TestSocketAttack" time="0.404" name="run"/>
+</testsuite>

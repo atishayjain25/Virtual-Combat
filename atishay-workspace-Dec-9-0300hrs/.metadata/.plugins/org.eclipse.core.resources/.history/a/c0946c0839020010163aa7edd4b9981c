@@ -1,0 +1,35 @@
+#Robocode Properties
+#Wed Dec 08 01:01:04 IST 2010
+robocode.cpu.constant=20563959
+robocode.numberOfBattles=5
+robocode.options.battle.desiredTPS=27
+robocode.options.common.appendWhenSavingResults=true
+robocode.options.common.dontHideRankings=true
+robocode.options.common.enableReplayRecording=false
+robocode.options.common.showResults=true
+robocode.options.development.path=
+robocode.options.rendering.antialiasing=0
+robocode.options.rendering.bufferImages=true
+robocode.options.rendering.forceBulletColor=false
+robocode.options.rendering.method=0
+robocode.options.rendering.noBuffers=2
+robocode.options.rendering.text.antialiasing=0
+robocode.options.sound.enableBulletHit=true
+robocode.options.sound.enableGunshot=true
+robocode.options.sound.enableMixerPan=true
+robocode.options.sound.enableMixerVolume=true
+robocode.options.sound.enableRobotCollision=true
+robocode.options.sound.enableRobotDeath=true
+robocode.options.sound.enableSound=false
+robocode.options.sound.enableWallCollision=true
+robocode.options.sound.mixer=DirectAudioDevice
+robocode.options.view.FPS=true
+robocode.options.view.TPS=true
+robocode.options.view.explosionDebris=true
+robocode.options.view.explosions=true
+robocode.options.view.ground=true
+robocode.options.view.robotEnergy=true
+robocode.options.view.robotNames=true
+robocode.options.view.scanArcs=false
+robocode.version.lastrun=\ 2.0.0 Alpha
+robocode.versionchecked=12/05/2010 18\:44\:51

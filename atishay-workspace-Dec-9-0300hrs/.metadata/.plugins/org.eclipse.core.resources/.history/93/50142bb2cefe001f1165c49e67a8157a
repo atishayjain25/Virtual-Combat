@@ -1,0 +1,37 @@
+package sample;
+import java.awt.Color;
+
+import robocode.*;
+public class BestBot extends Robot
+{
+    public void run()
+    {
+        while (true)
+        {
+        	setBodyColor(Color.GREEN);
+        	setGunColor(Color.ORANGE);
+        	setRadarColor(Color.DARK_GRAY);
+        	setScanColor(Color.GRAY);
+            ahead(1000);
+            turnGunRight(360);
+            back(1000);
+            turnGunRight(360);
+        }
+    }
+ 
+    public void onScannedRobot(ScannedRobotEvent e) {
+        fire(3);
+    }
+    public void onHitObstacle(HitObstacleEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    	System.out.println("Shit I hit an obstacle");
+    }
+    public void onHitWall(HitWallEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    	System.out.println("Shit I hit a wall");
+    }
+}

@@ -1,0 +1,63 @@
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/src/main/java/sample/VelociRobot.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/src/main/java/sample/VelociRobot.java: * @author Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/src/main/resources/sample/VelociRobot.properties:robot.author.name=Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/target/classes/sample/VelociRobot.properties:robot.author.name=Joshua Galecki
+Binary file /home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.samples/target/classes/robot.database matches
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.ui/src/main/java/net/sf/robocode/ui/dialog/AboutBox.java:			+ "<b><font color=\"green\">Joshua Galecki</font></b> (the implementation of the RateControlRobot), "
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java: * @author Joshua Galecki (contributor)
+Binary file /home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.ui/target/classes/net/sf/robocode/ui/dialog/AboutBox.class matches
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/ClassicRules.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/ClassicRules.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobjectSnapshot.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobjectSnapshot.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/Battle.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/Battle.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/BulletPeer.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/BulletPeer.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/RobotPeer.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/RobotPeer.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/ContestantStatistics.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/ContestantStatistics.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/RobjectPeer.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/RobjectPeer.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/ClassicRobotStatistics.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/peer/ClassicRobotStatistics.java: * @author Joshua Galecki (orignal)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/CustomRules.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/CustomRules.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/ICustomRules.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.battle/src/main/java/net/sf/robocode/battle/ICustomRules.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/ScannedObjectEvent.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/ScannedObjectEvent.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/control/snapshot/BulletState.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/control/snapshot/BulletState.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/control/snapshot/IRobjectSnapshot.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/control/snapshot/IRobjectSnapshot.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/HitObjectEvent.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/HitObjectEvent.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/robotinterfaces/IObjectRobot.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/robotinterfaces/IObjectRobot.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/robotinterfaces/IObjectEvents.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/robotinterfaces/IObjectEvents.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/BattleResults.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/BattleResults.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/Robot.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/Robot.java: * @author Joshua Galecki (contributor)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/RateControlRobot.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/RateControlRobot.java: * @author Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/HitObstacleEvent.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/src/main/java/robocode/HitObstacleEvent.java: * @author Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.api/target/launch/versions.txt:* Joshua Galecki has provided a new robot type, the RateControlRobot, which is an extension of the AdvancedRobot.
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/versions.txt:* Joshua Galecki has provided a new robot type, the RateControlRobot, which is an extension of the AdvancedRobot.
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/BoxPeer.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/BoxPeer.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/CaptureTheFlagRules.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/CaptureTheFlagRules.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/CaptureTheFlagRules.java: * 		Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.extensions/src/main/java/CTF/FlagPeer.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.tests/src/test/java/net/sf/robocode/test/robots/TestRateControl.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.tests/src/test/java/net/sf/robocode/test/robots/TestRateControl.java: * @author Joshua Galecki (original)
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.tests/src/main/java/tested/robots/RateControl.java: *     Joshua Galecki
+/home/himanshu/Desktop/RoboSocer/RoboCode-Tanks/src/src/branches/custom-battlefields-workspace/robocode.tests/src/main/java/tested/robots/RateControl.java: * @author Joshua Galecki (original)

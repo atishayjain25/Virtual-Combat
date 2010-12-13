@@ -1,0 +1,5 @@
+package net.sf.robocode.extensions;
+
+public class BoxPeer {
+
+}

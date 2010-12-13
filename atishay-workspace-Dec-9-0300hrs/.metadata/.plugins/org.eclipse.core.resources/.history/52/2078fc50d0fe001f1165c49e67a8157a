@@ -1,0 +1,47 @@
+package sample;
+import java.awt.Color;
+
+import robocode.*;
+import robocode.robotinterfaces.IObjectEvents;
+import robocode.robotinterfaces.IObjectRobot;
+public class BestBot extends Robot implements IObjectEvents, IObjectRobot
+{
+    public void run()
+    {
+        while (true)
+        {
+        	setBodyColor(Color.GREEN);
+        	setGunColor(Color.ORANGE);
+        	setRadarColor(Color.DARK_GRAY);
+        	setScanColor(Color.GRAY);
+            ahead(1000);
+            turnGunRight(360);
+            back(1000);
+            turnGunRight(360);
+        }
+    }
+ 
+    public void onScannedRobot(ScannedRobotEvent e) {
+        fire(3);
+    }
+    public void onHitObstacle(HitObstacleEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    	System.out.println("Shit I hit an obstacle");
+    }
+    public void onHitWall(HitWallEvent e)
+    {
+    	turnLeft(90);
+    	ahead(40);
+    	System.out.println("Shit I hit a wall");
+    }
+    public void onHitObject(HitObjectEvent e)
+    {
+    	turnRight(90);
+    	ahead(60);
+    }
+    public IObjectEvents getObjectEventListener() {
+		return this;
+	}
+}

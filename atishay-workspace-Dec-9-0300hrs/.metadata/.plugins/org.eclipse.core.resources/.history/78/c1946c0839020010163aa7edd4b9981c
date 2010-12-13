@@ -1,0 +1,7 @@
+#Robocode window sizes
+#Wed Dec 08 01:01:04 IST 2010
+net.sf.robocode.ui.dialog.RobocodeFrame=308,95,913,669
+net.sf.robocode.ui.editor.RobocodeEditor=335,120,602,559
+net.sf.robocode.ui.dialog.ConsoleDialog=386,199,500,400
+net.sf.robocode.ui.dialog.NewBattleDialog=210,74,842,650
+net.sf.robocode.ui.dialog.PreferencesDialog=387,219,893,345
